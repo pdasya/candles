@@ -1,0 +1,12 @@
+@import 'variables'; 
+
+header {
+    background-color: #FFF8F3;
+
+    &__inner {
+        padding-top: 4px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

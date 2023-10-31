@@ -1,0 +1,65 @@
+@import 'variables'; 
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after, 
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+
+.section {
+    padding-bottom: 150px;
+}
+
+.button {
+    padding: 18px 54px;
+    background-color: #FFBD59;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+
+
